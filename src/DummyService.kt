@@ -9,5 +9,4 @@ class DummyService(private val name: String) {
             return ContentDuration(name, duration)
         }
 }
-data class ContentDuration(val content: String, val duration:
-Int)
+data class ContentDuration(val content: String, val duration: Int)
