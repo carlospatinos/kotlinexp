@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 public class MyCallable implements Callable<String> {
-
+    synchronized int a;
     @Override
     public String call() throws Exception {
         Thread.sleep(1000);
