@@ -11,7 +11,7 @@
 .mtj.tmp/
 
 out/
-
+.gradle/
 # Package Files #
 *.jar
 *.war
